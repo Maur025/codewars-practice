@@ -1,0 +1,23 @@
+{
+	"name": "javascript-lang",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "vitest"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"version": "^11.20.0",
+			"onFail": "download"
+		}
+	},
+	"type": "module",
+	"dependencies": {
+		"vitest": "^4.1.10"
+	}
+}
