@@ -8,13 +8,13 @@
 
 /** @param {string} sentence */
 export function spEng(sentence) {
-	if (!sentence) {
-		return false;
-	}
+  if (!sentence) {
+    return false;
+  }
 
-	const EXPECTED_VALUE = "english";
+  const EXPECTED_VALUE = "english";
 
-	const sentenceNormalized = sentence.trim().toLowerCase();
+  const sentenceNormalized = sentence.trim().toLowerCase();
 
-	return sentenceNormalized.includes(EXPECTED_VALUE);
+  return sentenceNormalized.includes(EXPECTED_VALUE);
 }
