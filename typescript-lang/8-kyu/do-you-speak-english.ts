@@ -8,11 +8,11 @@
 const EXPECTED_FRASE = "english";
 
 export const spEng = (sentence?: string | null): boolean => {
-	if (!sentence) {
-		return false;
-	}
+  if (!sentence) {
+    return false;
+  }
 
-	const sentenceNormalized = sentence.trim().toLowerCase();
+  const sentenceNormalized = sentence.trim().toLowerCase();
 
-	return sentenceNormalized.includes(EXPECTED_FRASE);
+  return sentenceNormalized.includes(EXPECTED_FRASE);
 };
